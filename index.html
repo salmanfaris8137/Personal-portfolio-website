@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salman portfoliyo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/415b3b224e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">OT.Portfolio</a>
+                
+                
+               <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p> Hello !</p>
+            <h1>I'm <span> Salman Faris </span> <br> Data Scientist</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------About------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="DSC07188-01.jpeg.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><b>“Driven recent BBA graduate and PG Diploma in Data Science and Analytics, possessing a solid foundation in
+                        statistical analysis, machine learning, and data mining. Proficient in Python, R, SQL, and Tableau, with practical
+                        experience from academic projects and internships in data handling and analysis. Demonstrates excellent communication and problem-solving abilities, aiming to apply analytical skills in a data science role to contribute to
+                        organizational success.”</b></p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span>Python Programming</span><br>intermediate</li>
+                            <li> <span>Machine Learning</span><br>intermediate</li>
+                            <li> <span>SQL</span><br>intermediate</li>
+                            <li> <span>HTML, CSS</span><br>intermediate</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li> <span>2024 -  Current</span><br>Data Science intern at WESTBERG INTERNATIONAL</li>
+                            <li> <span>2023 - 2023</span><br>Data Scientist intern at CognoRise Infotech</li>
+                            <li> <span>2023</span><br>Machine Learning intern at CodeSoft Infotech</li>
+                        </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li> <span>2023-2024</span><br>PG Diploma in Data Science</li>
+                        <li> <span>2020-2023</span><br>BBA- Finance at Calicut Univercity</li>
+                        <li> <span>2020</span><br>Secondary</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <!------Services------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Python Programming</h2>
+                    <p>
+                        The creation and execution of computer programs using the Python programming language, known for its simplicity, readability, and versatility across various domains such as web development, scientific computing, artificial intelligence, and automation !</p>
+                    <a href="https://en.wikipedia.org/wiki/Python_(programming_language)"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Machine Learning</h2>
+                    <p>
+                        Machine learning is a subset of artificial intelligence that focuses on developing algorithms and techniques enabling computers to learn from data and make predictions or decisions without being explicitly programmed!</p>
+                    <a href="https://en.wikipedia.org/wiki/Machine_learning"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Deep Learning</h2>
+                    <p>Deep learning is a subset of machine learning that utilizes artificial neural networks with multiple layers to understand and process complex data.!</p>
+                    <a href="https://en.wikipedia.org/wiki/Deep_learning"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>SQL</h2>
+                    <p>. It provides a standardized way to interact with databases, allowing users to perform tasks such as querying data, inserting new records, updating existing records, and deleting records!</p>
+                    <a href="https://en.wikipedia.org/wiki/SQL"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>HTML,CSS</h2>
+                    <p>
+                        HTML and CSS are fundamental technologies for building and styling web pages, with HTML providing the structure and content, and CSS providing the styling and visual design. They work in conjunction to create engaging and user-friendly web experiences.!</p>
+                    <a href=""> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Data Visualization</h2>
+                    <p>
+                        Data visualization is the graphical representation of data and information to facilitate understanding and analysis!</p>
+                    <a href="https://en.wikipedia.org/wiki/Data_and_information_visualization"> Learn more</a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+<!-------------portfoliio------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images.jpg">
+                <div class="layer">
+                    <h3>Snack GAME</h3>
+                    <p>Click Here For Github Link </p>
+                        <a href="https://github.com/salmanfaris8137/Snake-Game"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+                </div>
+                <div class="work">
+                    <img src="C:\Users\salma\OneDrive\Desktop\basic portfoliyo\images (3).jpg">
+                    <div class="layer">
+                        <h3>Finger Count</h3>
+                        <p>To check the code click here  </p>
+                            <a href="https://github.com/salmanfaris8137/finger-count"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    
+                    </div>
+                    </div>
+                    <div class="work">
+                        <img src="C:\Users\salma\OneDrive\Desktop\basic portfoliyo\salman.jpg">
+                        <div class="layer">
+                            <h3>Recommendation System</h3>
+                            <p>Click Here For Github Link  </p>
+                                <a href="https://github.com/salmanfaris8137/Recommendation-System"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        
+                        </div>
+                        </div>
+                        <div class="work">
+                            <img src="C:\Users\salma\OneDrive\Desktop\basic portfoliyo\1_eiWJJsWAjcgCA51AYi1cMA.jpg">
+                            <div class="layer">
+                                <h3>Classification</h3>
+                                <p>Click Here For Github Link  </p>
+                                    <a href="https://github.com/salmanfaris8137/classification"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            
+                            </div>
+                            </div>
+                            <div class="work">
+                                <img src="1571397911977.jpg">
+                                <div class="layer">
+                                    <h3>freecodecamp</h3>
+                                    <p>Click Here For Github Link  </p>
+                                        <a href="https://en.wikipedia.org/wiki/NumPy"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                
+                                </div>
+                                </div>
+                                <div class="work">
+                                    <img src="C:\Users\salma\OneDrive\Desktop\basic portfoliyo\1574331713226.jpg">
+                                    <div class="layer">
+                                        <h3>Regression</h3>
+                                        <p>Click Here For Github Link  </p>
+                                            <a href="https://github.com/salmanfaris8137/Regression"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                                    </div>
+                                    </div>
+
+                
+
+            </div>
+
+        </div>
+        <a href="https://github.com/salmanfaris8137?tab=repositories" class="btn">See more</a>
+    </div>
+
+</div>
+<!------------------------- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>salmanfarisots@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+91 8137022794</p>
+                <div class="social-icons">
+                  <a href="https://github.com/salmanfaris8137"target="-blank"><i class="fab fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/salman-faris-ot-155bbb293"target="-blank"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://www.instagram.com/_sal_man?igsh=MTl1d3p6d2duNTNlbA=="target="-blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1_bMYaRTVDNBnTzj5G2EJUvpX3mJdPQ3I/view?usp=drive_link" download class=" btn btn2" target="-blank">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit </button>
+            </form>
+        </div>
+    </div>
+    <!-- <div class="copyright">
+        <p>Copyright © salman ot <i class="fas fa-heart"></i></p>
+    </div> -->
+
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+               tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+
+        }
+
+    </script>
+    
+</body>
+</html>
